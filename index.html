@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EduConnect Rwanda</title>
+</head>
+
+<body>
+    <header>
+        <h1>EduConnect Rwanda</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to EduConnect Rwanda</h2>
+        <p>Your gateway to transformative education events!</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3 class = "col_1">Career Fair Guidance</h3>
+            <p>Get insights into career fairs and guidance for your future.</p>
+        </div>
+        <div class="service-box">
+            <h3 class = "col_1">Inspirational Talks</h3>
+            <p>Be inspired by industry leaders through our insightful talks.</p>
+        </div>
+        <div class="service-box">
+            <h3 class = "col_1">Mentorship</h3>
+            <p>Connect with experienced professionals for mentorship and guidance.</p>
+        </div>
+        <div class="service-box">
+            <h3 class = "col_1">Workshops</h3>
+            <p>Participate in hands-on workshops to enhance your skills.</p>
+        </div>
+        <div class="service-box">
+            <h3 class ="col_1">Boot Camps for Various Courses</h3>
+            <p>Intensive boot camps tailored for various courses and skillsets.</p>
+        </div>
+        <div class="service-box">
+            <h3 class ="col_1">Meet-ups</h3>
+            <p>Network with professionals and peers in our regular meet-up sessions.</p>
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <!-- Hypothetical Event Listings -->
+        <div class="event">
+            <h3>Skills Workshop</h3>
+            <p>Date: January 1, 2025</p>
+            <button onclick="attendEvent('Skills Workshop')">Attend</button>
+            <button onclick="bookEvent('Skills Workshop')">Book Now</button>
+        </div>
+
+        <div class="event">
+            <h3>Career Fair - Technology Expo</h3>
+            <p>Date: February 15, 2025</p>
+            <button onclick="attendEvent('Career Fair - Technology Expo')">Attend</button>
+            <button onclick="bookEvent('Career Fair - Technology Expo')">Book Now</button>
+        </div>
+
+        <div class="event">
+            <h3>Inspirational Talk Series: Leading Innovators</h3>
+            <p>Date: March 10, 2025</p>
+            <button onclick="attendEvent('Inspirational Talk Series')">Attend</button>
+            <button onclick="bookEvent('Inspirational Talk Series')">Book Now</button>
+        </div>
+        <!-- Add more hypothetical events as needed -->
+    </section>
+
+    <section id="about">
+        <h2>About EduConnect Rwanda</h2>
+        <p>Welcome to EduConnect Rwanda - your partner in transformative education! We are dedicated to revolutionizing the educational landscape in Rwanda by bridging the gap between academic knowledge and real-world skills.</p>
+
+        <p>Our mission is to provide comprehensive services that empower students to succeed in their careers. Whether it's through our career fair guidance, inspirational talks, mentorship programs, workshops, boot camps, or meet-ups, EduConnect Rwanda is committed to nurturing a skilled and motivated workforce for the future.</p>
+
+        <p>Founded by university students Dukundane Stephen and Muhirwa Jean Bosco, EduConnect Rwanda envisions a future where every graduate not only excels academically but is also well-prepared for the dynamic challenges of the workforce.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to get in touch? Reach out to us!</p>
+        <!-- Include a contact form or contact information here -->
+      <!-- Contact Form -->
+      <form id="contactForm">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 EduConnect Rwanda</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
